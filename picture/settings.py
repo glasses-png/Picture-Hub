@@ -11,7 +11,7 @@ SECRET_KEY = 'hbb)#1-6!bva8wh&=dbx!ni=^06ltw0zy6lyl-94rvc!#6ymbf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 db_from_env = dj_database_url.config(conn_max_age=500)
-ALLOWED_HOSTS = 'pic-hub.herokuapp.com'
+ALLOWED_HOSTS = 'picture-12.herokuapp.com'
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
